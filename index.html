@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="main">
+
+        <!-- header section -->
+
+        <section id="header">
+            <nav>
+                <div class="logo">
+                    <h1><a href="#header">SS_02</a></h1>
+                </div>
+                <div class="nav-menu">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skill</a></li>
+                        <li><a href="#contact">Contact me</a></li>
+                        <i class="fas fa-xmark" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openMenu()"></i>
+                </div>
+            </nav>
+
+            <div class="home-content">
+                <div class="left">
+                    <h1 class="hi anim">Hi there,</h1>
+                    <h1 class="name anim">I am Shibam <span>Sadhukhan</span></h1>
+                    <h2 class="profession anim">Student</h2>
+                    <p class="desc anim">
+                        As a student, I'm constantly driven by the desire to learn and grow. My passion lies at the intersection of web development, data science, cyber security, and AI/ML. Through my journey, I strive to not only master these fields but also contribute meaningfully to their advancement.
+                    </p>
+                    <a href="index.html" class="btn-cv anim" download="download">Download CV</a>
+                    <a href="#" class="btn-cv anim" download="download">Explore CV</a>
+                </div>
+                <div class="right anim">
+                    <a href="https://www.facebook.com/profile.php?id=100081264792808
+                    " target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/shib_am_02/
+                    " target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shibam008/
+                    " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shibam008
+                    " target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/sadhukhan799
+                    " target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+
+        <section id="about">
+            <div class="left">
+                <img src="https://i.postimg.cc/x15tB2QJ/IMG-20230717-081345.jpg" alt="user-image">
+            </div>
+            <div class="right">
+                <div class="titles">
+                    <h2>About Me</h2>
+                    <h3>Student</h3>
+                    <p>
+                        I am an enthusiastic learner with a keen interest in exploring the vast possibilities that technology offers. Whether it's crafting elegant web solutions, delving into the depths of data to uncover meaningful insights, fortifying digital landscapes against cyber threats, or harnessing the power of artificial intelligence and machine learning, I am driven by a relentless curiosity and a hunger for knowledge.
+                    </p>
+                </div>
+                <div class="tabs">
+                    <div class="tab-links active-link" onclick="openTab('education')" style="text-align: center;">Education</div>
+                </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul class="edu">
+                            <li>
+                                <h4>2020 - 2021</h4>
+                                <p>Secondary Examination ( 83% )</p>
+                                <p>Board : WBBSE</p>
+                            </li>
+                            <li>
+                                <h4>2022 - 2023</h4>
+                                <p>Higher Secondry ( 77.6% )</p>
+                                <p>Board : WBCHSE</p>
+                            </li>
+                            <li>
+                                <h4>2023 - Current</h4>
+                                <p>BCA</p>
+                                <p>Eminent College of Management & Technology</p>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+
+        <!-- skills section -->
+
+        <section id="skills">
+                <div class="header">
+                    <h1>My Skills</h1>
+                </div>
+                <div class="container">
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="https://i.postimg.cc/sD2sGqKS/OIP.jpg
+                                " alt="html" class="skill-icon">
+                            </div>
+                            <h3>HTML 5</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, commodi.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="https://i.postimg.cc/4xJtcJqP/OIP.jpg
+                                " alt="css" class="skill-icon">
+                            </div>
+                            <h3>CSS 3</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, commodi.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="https://i.postimg.cc/yd7z1Z2s/js.png
+                                " alt="javascript" class="skill-icon">
+                            </div>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, commodi.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="https://i.postimg.cc/mZ8Trmbq/python.png
+                                " alt="python" class="skill-icon">
+                            </div>
+                            <h3>Python</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, commodi.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="https://i.postimg.cc/6pS3pYhw/cpp.png
+                                " alt="C++" class="skill-icon">
+                            </div>
+                            <h3>C++</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, commodi.</p>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="https://i.postimg.cc/mgZMHXMH/c.png
+                                " alt="c" class="skill-icon">
+                            </div>
+                            <h3>C</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, commodi.</p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- contact section -->
+
+        <section id="contact">
+            <div class="titles">
+                <h2>Contact Me</h2>
+                <h3>GET IN Touch</h3>
+            </div>
+            <div class="contact">
+                <div class="contact-left">
+                    <form name="Form">
+                        <input type="text" placeholder="Enter Name" id="name" name="name" required>
+                        <input type="email" placeholder="Enter email" id="email" name="email" required>
+                        <input type="text" placeholder="Mobile number" id="mobile" name="mobile" required>
+                        <textarea placeholder="Message..." id="message"></textarea>
+                        <input type="submit" value="Send message" class="button" id="textBox" onclick="validateForm()">
+                        <!-- <button type="button" value="submit">Send message <i class="fa-solid fa-circle-arrow-right"></i></button> -->
+                    </form>
+                </div>
+                <div class="vl"></div>
+                <div class="contact-right">
+                    <div class="col address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="info">
+                            <h4>Address</h4>
+                            <p>Kolkata West Bengal</p>
+                        </div>
+                    </div>
+                    <div class="col address">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="info">
+                            <h4>Phone</h4>
+                            <p>+91 8391857548</p>
+                        </div>
+                    </div>
+                    <div class="col address">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="info">
+                            <h4>Email</h4>
+                            <p>sadhukhan@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <footer>
+                Copyright &copy; 2024 All right reserved | Made by Shibam Sadhukhan 
+            </footer>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
